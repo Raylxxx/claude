@@ -5,7 +5,9 @@ description: Archive of posts by Serenity (@aleabitoreddit on X, 用户称她「
 
 # Serenity (@aleabitoreddit) post archive
 
-Posts are stored as Markdown in `posts/`:
+Start with the overview note at `美股/Serenity（白毛股神）精华笔记.md` (repository root). It was built from public web sources: post snippets found by search, media coverage and third-party track-record studies. It holds a ticker index with stance per ticker, a dated timeline of her notable posts (each with a summary callout: date, tickers, stance, one-line gist, link), and third-party accuracy statistics. It covers only part of her posts, mostly the widely shared ones; say so when answering from it.
+
+Full post archives, when fetched with the script below, are stored as Markdown in `posts/`:
 
 - `posts/index.md`: post count per month, plus the most-mentioned tickers ($cashtags) with first and last mention dates. Read this first.
 - `posts/YYYY-MM.md`: every post from that month, oldest first. Each entry has the UTC time, type (原创 / 回复 / 引用), a link to the original, engagement counts, cashtags, the replied-to or quoted text, and the full post text.
